@@ -1,91 +1,80 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Nicole Padlan",
+  title: "Web Developer",
+  description: "Portfolio website of Nicole Padlan",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    linkedin: "https://linkedin.com/in/nicole-padlan-70596710b",
+    github: "https://github.com/njdpadlan",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "A Web Developer based in Edmonton. Passionate about creating responsive and user-friendly websites and applications. I'm really interested in Javascript frameworks such as Astro and React. Outside of coding, I enjoy playing online games.",
+  skills: ["Javascript", "Astro", "Strapi CMS", "Strapi Cloud", "React", "Vercel", "Node.js", "Git/GitHub", "Tailwind", "SASS CSS", "SQL", "PHP", "Wordpress", "HTML", "CSS"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Print|ED",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A capstone project for a local printing business based here in Edmonton, AB. Led the development in creating 9 responsive web pages using Astro for the frontend and Strapi CMS for the backend. Self-taught website and database deployment using Strapi Cloud, Vercel, Render and Netlify. Work closely and collaboratively with two other teammates while using Git/GitHub for version control.",
+      link: "https://www.printedonline.ca/",
+      skills: ["Astro", "Strapi CMS", "Strapi Cloud", "SASS CSS", "API", "Vercel", "SEO"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Dota Wiki",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Based from a video game that I really enjoy playing. I developed a wiki for all Dota 2 heroes that features essential information such as hero names, portraits, attributes, and basic skills. The website is developed by using a public API which is where I pull all my data from. React is used to create the frontend.",
+      link: "https://dota-wiki.vercel.app/",
+      skills: ["React", "API", "Vercel"],
     },
     {
-      name: "ExtensionKit",
+      name: "Guess the French",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A fun mini-game to learn a new word in French each day. Developed using vanilla JS and bootstrap to make it pretty.",
+      link: "https://guess-the-french.vercel.app/",
+      skills: ["Javascript", "Bootstrap", "HTML", "CSS"],
+    },
+      {
+      name: "PMS Dashboard",
+      description:
+        "I developed and designed this responsive dashboard for project management, featuring timelines, progress tracking, team member assignments, and communication tools styled with Tailwind CSS",
+      link: "https://pms-dashboard-eight.vercel.app/",
+      skills: ["Tailwind", "HTML", "CSS"],
     },
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "HEP Services Inc.",
+      title: "Quality Assurance Consultant",
+      dateRange: "Oct 2023 - April 2025",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Collaborated closely with developers to troubleshoot issues and resolve bugs",
+        "Performed thorough sanity and regression testing on new features before production deployment",
+        "Ensured seamless integration and reliable functionality of newly implemented features",
       ],
     },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      {
+      company: "Networld Capital Ventures Inc.",
+      title: "Information Security Specialist",
+      dateRange: "2013 - 2015",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+
       ],
     },
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Northern Alberta Institute of Technology (NAIT)",
+      degree: "Web Design and Development",
+      dateRange: "2023 - 2025",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Dean's Honour Roll",
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "Mapua Institute of Technology",
+      degree: "Bachelor of Science in Information Technology",
+      dateRange: "2009 - 2013",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+
       ],
     },
   ],
