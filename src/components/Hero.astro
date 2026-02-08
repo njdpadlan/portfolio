@@ -1,5 +1,7 @@
 ---
 import { siteConfig } from "../config";
+import { Image } from 'astro:assets';
+import portfolioImg from '../img/photoportfolio.png';
 ---
 
 <div
@@ -135,8 +137,10 @@ import { siteConfig } from "../config";
   </svg>
   <div class="h-full mx-auto p-8 sm:p-12 md:p-24 flex items-center bg-zinc-800">
     <div>
-      <img src="../src/components/img/portfolio-photo.jpg" alt="A photo of myself smiling." class="mb-4">
-      <img src="../src/components/img/pug-scarf-cute.JPG" alt="pug" class="mb-4">
+      <Image
+        src={portfolioImg}
+        alt={"picture of myself"}
+        inferSize={true}/>
       <h2
         class="text-pretty text-xl sm:text-2xl md:text-5xl font-bold tracking-tight text-white animate-fade-in"
       >
